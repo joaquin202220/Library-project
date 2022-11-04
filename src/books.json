@@ -1,0 +1,32 @@
+[
+  {
+    "name": "El asesino de Reyes",
+    "price": 13,
+    "img": "url",
+    "id": 1
+  },
+  {
+    "name": "El asesino de Reyes",
+    "price": 14,
+    "img": "url",
+    "id": 2
+  },
+  {
+    "name": "El asesino de Reyes",
+    "price": 15,
+    "img": "url",
+    "id": 3
+  },
+  {
+    "name": "El asesino de Reyes",
+    "price": 16,
+    "img": "url",
+    "id": 4
+  },
+  {
+    "name": "El asesino de Reyes",
+    "price": 17,
+    "img": "url",
+    "id": 5
+  }
+]
