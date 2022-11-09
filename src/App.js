@@ -1,25 +1,26 @@
-import Books from "./components/books/books.component";
-import BooksTitle from "./components/books-title/books-title.component";
-import BooksFilter from "./components/books-filter/books-filter.component";
-import Navigation from "./components/navigation/navigation.component";
+import { Routes, Route } from "react-router-dom";
+
+import Home from "./routes/home/home.component";
 
 import "./App.scss";
 
+const Books = () => {
+  return (
+    <div>
+      <h1>Hola soy el libro q elegiste</h1>
+    </div>
+  );
+};
+
 const App = () => {
   return (
-    <div className="app">
-      <div className="sec-one">
-        <Navigation />
-      </div>
-
-      <div className="sec-two">
-        <BooksFilter />
-        <div className="books-section">
-          <BooksTitle />
-          <Books />
-        </div>
-      </div>
-    </div>
+    <Routes>
+      <Route>
+        <Route path="/" element={<Home />}>
+          <Route path="/books" element={<Books />} />
+        </Route>
+      </Route>
+    </Routes>
   );
 };
 
